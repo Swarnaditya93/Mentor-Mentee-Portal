@@ -89,8 +89,8 @@ def init_db():
             ('Admin', 'ADMIN', 'superadmin')
         ])
         c.executemany("INSERT INTO mentees VALUES (?, ?, ?, ?, ?)", [
-            ('101', 'Avrrodeep', 'avrrodeep@student.edu', '9876543210', 'EMP01'),
-            ('102', 'Ishita Khurana', 'ishita@student.edu', '9876543211', 'EMP01')
+            ('101', 'Ethan', 'ethan@student.edu', '9876543210', 'EMP01'),
+            ('102', 'Nancy', 'nancy@student.edu', '9876543211', 'EMP01')
         ])
         c.executemany("INSERT INTO sgpa VALUES (?, ?, ?)", [
             ('101', 1, 8.2), ('101', 2, 8.5), ('101', 3, 8.86),
